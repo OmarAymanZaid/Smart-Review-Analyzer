@@ -1,0 +1,31 @@
+# Core
+numpy==2.4.4
+pandas==3.0.2
+
+# NLP preprocessing
+nltk==3.9.4
+spacy==3.8.14
+
+# Feature extraction
+scikit-learn==1.8.0
+gensim==4.4.0
+
+# Deep Learning
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+
+# Transformers (BERT)
+transformers==5.5.4
+datasets==4.8.4
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Utilities
+tqdm==4.67.3
+pyyaml==6.0.3
+
+# Optional
+jupyter==1.1.1
