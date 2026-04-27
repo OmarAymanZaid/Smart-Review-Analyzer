@@ -58,14 +58,16 @@ def run_full_pipeline(data_path="data/raw/reviews.csv"):
     # -----------------------------
     # STEP 4: Train Baseline Model
     # -----------------------------
-    print("[5] Training baseline model (Logistic Regression)...")
-    baseline_model = train_logistic_regression(X_train_tfidf, y_train)
+    #print("[5] Training baseline model (Logistic Regression)...")
+    #baseline_model = train_logistic_regression(X_train_tfidf, y_train)
 
     # -----------------------------
     # STEP 5: Prediction
     # -----------------------------
     print("[6] Evaluating baseline model...")
-    y_pred = predict(baseline_model, X_test_tfidf)
+    print(predict("product amazing quality", method="tfidf"))
+    print(predict("bad service terrible", method="w2v"))
+    #y_pred = predict(baseline_model, X_test_tfidf)
 
     # -----------------------------
     # STEP 6: Evaluation
