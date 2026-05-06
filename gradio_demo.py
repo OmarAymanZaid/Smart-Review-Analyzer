@@ -8,8 +8,8 @@ import re
 warnings.filterwarnings("ignore")
 
 # Ensure BERT model is in evaluation mode
-if 'model' in globals():
-    model.eval()
+# if 'model' in globals():
+#     model.eval()
 
 # Global session tracker for statistics and common patterns
 session = {
