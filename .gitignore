@@ -212,6 +212,7 @@ outputs
 
 
 # Ignore large model files
+models/
 distilbert_local/
 *.bin
 *.pt
