@@ -231,12 +231,6 @@ The final report includes:
 
 ---
 
-## 👥 Team
-
-* Your Name(s)
-
----
-
 ## 📜 License
 
 This project is for academic purposes.
