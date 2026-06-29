@@ -56,35 +56,29 @@ Final Output (Sentiment + Explanation)
 
 ```
 smart-review-analyzer/
-│
+|
 ├── data/
 │   ├── raw/
-│   ├── processed/
-│   └── external/
-│
+│   └── processed/
+│   
+├── models/
+│   └── (trained model artifacts)
+|
 ├── notebooks/
-│   ├── exploration.ipynb
-│   └── modeling.ipynb
-│
-├── src/
-│   ├── preprocessing/
-│   ├── features/
-│   ├── models/
-│   ├── evaluation/
-│   ├── insights/
-│   └── utils/
-│
-├── configs/
-│   └── config.yaml
-│
-├── outputs/
-│   ├── models/
-│   ├── figures/
-│   └── reports/
-│
-├── main.py
-├── requirements.txt
-└── README.md
+│   ├── 1_exploration.ipynb
+│   ├── 2_model_training.ipynb
+│   └── final-pipeline.ipynb
+|
+└── src/
+|   ├── config.py
+|   ├── inference.py
+|   ├── insights.py
+|   └── preprocessing.py
+|
+├── .gitignore
+├── README.md
+├── app.py
+└── requirements.txt
 ```
 
 ---
